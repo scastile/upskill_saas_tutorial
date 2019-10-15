@@ -34,6 +34,21 @@ gem 'bootstrap-sass', '3.3.7'
 # Use Font Awesome sass gem for adding icons
 gem 'font-awesome-sass', '4.6.2'
 
+#Use Hirb gem for better database view in console
+gem 'hirb', '0.7.3'
+
+# Use Devise for user authentication
+gem 'devise', '4.7.1'
+
+# Use Stripe for payment processing
+gem 'stripe', '1.48.0'
+
+#Use Figaro  for ENV variables
+gem 'figaro', '1.1.1'
+
+#Use Paperclip for image upload
+gem 'paperclip', '4.3.6'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
